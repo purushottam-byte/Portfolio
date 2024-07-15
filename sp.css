@@ -1,0 +1,63 @@
+#navbar{
+    display:flex;
+    justify-content:space-evenly;
+    border: 2px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#intro{
+    display:flex;
+    justify-content:space-between;
+    border:2px; 
+}
+
+
+
+
+#edu{
+    /* display:flex;
+    justify-content:space-between; */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+
+    grid-gap: 10px;  
+
+}
+
+.grid{
+    background-color: aqua;
+    padding: 20px;
+   text-align: center;
+   border:2px solid ;
+}
+
+
+
+.skill1{
+    
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+.skill2{
+    
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:10px;
+    grid-auto-columns:minmax(100px,auto);
+    grid-auto-rows:minmax(100px,auto);
+   
+}
+
+.item{
+    background-color: aqua;
+    border:2px solid;
+    border-radius:2px ;
+
+}
