@@ -4,15 +4,20 @@
     border: 2px solid;
     padding-top: 20px;
     padding-bottom: 20px;
+   
 }
+#main{
+    display:flex;
+    justify-content: space-between;
+    margin-left:20%;
+    margin-right:10%;
+}
+
 #intro{
     display:flex;
     justify-content:space-between;
     border:2px; 
 }
-
-
-
 
 #edu{
     /* display:flex;
@@ -55,9 +60,77 @@
    
 }
 
-.item{
+.item1{
+    background-color: aqua;
+    border:2px solid;
+    border-radius:2px ;
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+
+}
+.item2{
     background-color: aqua;
     border:2px solid;
     border-radius:2px ;
 
 }
+.item3{
+    background-color: aqua;
+    border:2px solid;
+    border-radius:2px ;
+
+}
+.item4{
+    background-color: aqua;
+    border:2px solid;
+    border-radius:2px ;
+
+}
+.item5{
+    background-color: aqua;
+    border:2px solid;
+    border-radius:2px ;
+
+}
+h2{
+    text-shadow: 2px 2px 4px;
+}
+.grid-container3 {
+    display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows:repeat(2,1fr);
+        grid-gap:10px;
+        grid-auto-columns:minmax(100px,auto);
+        grid-auto-rows:minmax(100px,auto);
+    }
+#raju{
+    box-shadow:10px 10px 20px #bababa,10px 10px 20px #ffffff;
+    border:2px solid black;
+    margin-left:30%;
+}
+#raju1{
+    box-shadow:10px 10px 20px #bababa,10px 10px 20px #ffffff;
+    border:2px solid black;
+    margin-left:30%;
+}
+#info{
+    border:2px solid;
+
+}
+.cont{
+    background-color:yellow;
+    
+}
+footer{
+   
+    padding: 3px;
+
+}
+#logo{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+
+
